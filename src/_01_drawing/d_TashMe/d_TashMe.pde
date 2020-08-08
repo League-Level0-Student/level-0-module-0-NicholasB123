@@ -16,16 +16,16 @@ void setup() {
   
 // 2. The code below loads your face picture into the program. 
 //     Make sure the file name is correct for the face image you saved earlier
-face = loadImage("face.jpg");
+face = loadImage("TashMe.jpg");
   
 // 3. Set the size of the sketch. Make it big enough to show the face you chose.
-
+size(400,400);
 // 4. Resize the face so it is the same size as the sketch
 
 // 5. Drag and drop an image with a mustache onto this sketch. 
 //    Try to find one with a transparent background. Use the same idea as in step 1.
 //    Make sure the file name is correct for the mustache image you saved.  
-mustache = loadImage("mustache.jpg");
+mustache = loadImage("mustashe.jpg");
 
   }
 
@@ -33,7 +33,7 @@ void draw() {
   
 // 6. DRAW FACE.    Use the background() command to make the face the background of the sketch
 //    Run the program to see if the face is drawn. Get this working before you go on.
-  
+  background(400,400);
 
 // 7. DRAW MUSTACHE. Use the image() command to draw the mustache.  
 //                  The image command looks like this:
